@@ -179,8 +179,18 @@ Antes de ejecutar el programa, asegúrate de tener lo siguiente instalado en tu 
    ```
 
 ---
-
 ## **3. Configurar el Entorno**
+Configurar la base de datos para esto se debe realizar lo siguiente:
+1.Dirigirse al apartado de Tool Workspace en PSQL hasta encontrar esta ventana
+![image](https://github.com/user-attachments/assets/10fcc9a9-a39d-48c0-8a86-ad3a0026de33)
+2. Luego encargate de seleccionar la base de datos en la cual se trabajo (siendo la base de datos llamada proyecto la que se utilizo)
+![image](https://github.com/user-attachments/assets/3a9b569b-f60b-4802-af5e-21eb320a3bba)
+3. Ya por ultimo ponle una contraseña facil de recordar y valida la coneccion usando la contraseña que siempre usas para acceder pgAdmin4
+![image](https://github.com/user-attachments/assets/62a05e22-72ce-4134-b9f6-1ea55fa763db)
+![image](https://github.com/user-attachments/assets/02e1a22c-2c52-468c-998a-9953580c1bf4)
+
+
+## **4. Configurar el Entorno**
 1. Crea un archivo llamado `.env` en el mismo directorio donde está el programa `main.py`.
 2. Agrega las credenciales de tu base de datos PostgreSQL al archivo `.env`:
    ```
